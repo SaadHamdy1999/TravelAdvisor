@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -31,10 +30,10 @@ namespace TravelAdvisorProject.View
 
             loginController = new Login_controller(username, pass);
 
-            if(loginController.login(isAdmin.Checked))
-            Response.Write("<script>alert('Loged in Successfully')</script>");
+            if (loginController.login(isAdmin.Checked))
+                Response.Write("<script>alert('Loged in Successfully')</script>");
             else
-            Response.Write("<script>alert('UserNamee or Password Is not correct Try again..!!')</script>");
+                Response.Write("<script>alert('UserNamee or Password Is not correct Try again..!!')</script>");
         }
     }
 }

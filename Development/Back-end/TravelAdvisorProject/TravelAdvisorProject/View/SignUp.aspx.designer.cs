@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TravelAdvisorProject.Model {
+namespace TravelAdvisorProject.View {
     
     
-    public partial class Login {
+    public partial class SignUp {
         
         /// <summary>
         /// form1 control.

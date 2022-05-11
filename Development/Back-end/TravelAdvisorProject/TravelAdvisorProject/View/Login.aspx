@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="TravelAdvisorProject.View.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="Login.aspx.cs" Inherits="TravelAdvisorProject.View.Login" %>
 
 <!DOCTYPE html>
 
@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-  <nav>
+    <nav>
    <div class="logo">
      <img src="../Images/u.png" class="img-fluid"/>
    </div>

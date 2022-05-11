@@ -1,9 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" EnableEventValidation="false" CodeBehind="SignUp.aspx.cs" Inherits="TravelAdvisorProject.Model.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" EnableEventValidation="false" CodeBehind="SignUp.aspx.cs" Inherits="TravelAdvisorProject.View.SignUp" %>
 
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Registration Form</title>
+     <title>Registration Form</title>
 <link rel="icon" href="../Images/download.jpg"/>
 <link rel="stylesheet" href="signup_form.css"/>
  <link rel= "stylesheet" href= "nstyle.css"/>
@@ -56,6 +57,6 @@
 
 </form>
   </div>
-        </form>
+    </form>
 </body>
 </html>
