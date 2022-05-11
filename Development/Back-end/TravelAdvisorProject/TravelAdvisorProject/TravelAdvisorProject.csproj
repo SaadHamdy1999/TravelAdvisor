@@ -156,6 +156,7 @@
     <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="View\Login.aspx" />
     <Content Include="View\login_form.css" />
+    <Content Include="View\nstyle.css" />
     <Content Include="View\SignUp.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">

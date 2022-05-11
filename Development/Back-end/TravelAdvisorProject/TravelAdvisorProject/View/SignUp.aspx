@@ -4,13 +4,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Registration Form</title>
-<link rel="icon" href="../Images/download.jpg">
-<link rel="stylesheet" href="signup_form.css">
+<link rel="icon" href="../Images/download.jpg"/>
+<link rel="stylesheet" href="signup_form.css"/>
+ <link rel= "stylesheet" href= "nstyle.css"/>
+
 </head>
 <body>
     <form id="form1" runat="server">
 
-    
+      <nav>
+   <div class="logo">
+     <img src="../Images/u.png" class="img-fluid"/>
+   </div>
+   <ul>
+     <li><a href= "#">Home</a></li>
+     <li><a href= "#">About Us</a></li>
+   </ul>
+ 
+ </nav>
 
   <div  class="container">
 <form >
