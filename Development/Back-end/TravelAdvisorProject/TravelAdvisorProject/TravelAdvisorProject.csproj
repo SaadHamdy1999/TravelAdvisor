@@ -108,17 +108,26 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="View\AddTour.aspx" />
     <Content Include="View\Login.aspx" />
     <Content Include="View\login_form.css" />
     <Content Include="View\nstyle.css" />
     <Content Include="View\SignUp.aspx" />
     <Content Include="View\signup_form.css" />
+    <Content Include="View\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\Login_controller.cs" />
     <Compile Include="Controller\SignUp_controller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\AddTour.aspx.cs">
+      <DependentUpon>AddTour.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\AddTour.aspx.designer.cs">
+      <DependentUpon>AddTour.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -133,6 +142,9 @@
     <Compile Include="View\SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Upload\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
