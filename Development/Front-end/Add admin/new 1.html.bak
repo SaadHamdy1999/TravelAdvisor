@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="icon" href="contact4.jpg">
+<link rel="stylesheet" href="signup_form.css">
+</head>
+<body>
+<div class="header">
+  <img src="logo.png" alt="logo">
+</div>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+</div>
+  <div  class="container">
+<form action="./" method="post">
+<h1 class="header">Add Admin</h1>
+    <hr>
+    <label for="userName"><b>Username</b></label>
+    <input type="text" placeholder="Enter userName" name="username" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="Email" required>
+	<label for="password"><b>Password</b></label>
+    <input type="password" placeholder="password" name="password" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+ required>
+ 
+ 	<label for="confirmPassword"><b>Confirm Password</b></label>
+    <input type="Password" placeholder="password" name="confirmPassword" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+ required>
+ 
+      <button type="reset" class="resetbtn">Reset</button>
+	  <button type="submit" class="signupbtn">Sign Up</button>
+
+
+</form>
+  </div>
+</body>
+</html>
