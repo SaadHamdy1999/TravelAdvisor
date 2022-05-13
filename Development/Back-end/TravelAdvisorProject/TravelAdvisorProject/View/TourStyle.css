@@ -1,0 +1,254 @@
+body
+{
+	
+}
+nav
+{
+	position: absolute;
+	top: 0;
+	left:0;
+	width:100%;
+	height: 90px;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.6);
+	border-bottom: 1px solid white;
+	
+	}
+nav .logo{
+	padding-bottom:15px;
+	padding-right:12px;
+	float: left;
+}
+nav ul{
+	list-style:none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background: rgba(0,0,0,0.7);
+	border-radius: 6px;
+}
+.tour-visuals
+{
+	margin-top:10%;
+}
+.tour-video
+{
+	margin-top:6.5%;
+	margin-bottom: 3%;
+	border: 2px solid transparent;
+    border-radius: 14px;
+	position: relative;
+	left: 0px;
+	right:0px;
+	
+	
+}
+.pics img
+{
+	height:100%;
+	border: 2px solid transparent;
+    border-radius: 14px;
+}
+.pics1 img
+{
+	height:50%;
+	border: 2px solid transparent;
+    border-radius: 14px;
+}
+.pics
+{
+	margin-bottom:5%;
+}
+.row
+{
+
+	margin-bottom:10%;
+}
+.btn
+{
+	width: 20%;
+}
+#footer
+{
+	display: none;
+}
+h3
+{
+	display: inline-block;
+}
+label
+{
+	font-size: 25px;
+}
+			/* Reset. */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Panels. */
+.splitview {
+    position: relative;
+    width: 100%;
+    min-height: 45vw;
+    overflow: hidden;
+}
+
+.panel {
+    position: absolute;
+    width: 100vw;
+    min-height: 45vw;
+    overflow: hidden;
+}
+
+    .panel .content {
+        position: absolute;
+        width: 100vw;
+        min-height: 45vw;
+        color: #FFF;
+    }
+
+    .panel .description {
+        width: 25%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
+    .panel img {
+        box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.15);
+        width: 35%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+.bottom {
+    background-color: #F9FFA4;
+    z-index: 1;
+}
+
+    .bottom .description {
+        right: 5%;
+    }
+
+.top {
+    background-color: #F9CEEE;
+    z-index: 2;
+    width: 50vw;
+
+    /*-webkit-clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);*/
+}
+
+    .top .description {
+        left: 2%;
+    }
+
+/* Handle. */
+.handle {
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-color: rgb(253, 171, 0);
+    width: 5px;
+    top: 0;
+    left: 50%;
+    z-index: 3;
+}
+
+/* Skewed. */
+.skewed .handle {
+    top: 50%;
+    transform: rotate(30deg) translateY(-50%);
+    height: 200%;
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    transform-origin: top;
+}
+
+.eed
+{
+	position: absolute;
+	top: 30%;
+	left: 6%;right: 10%;
+}
+.skewed .top {
+    transform: skew(-30deg);
+    margin-left: -1000px;
+    width: calc(50vw + 1000px);
+}
+
+.skewed .top .content {
+    transform: skew(30deg);
+    margin-left: 1000px;
+}
+
+/* Responsive. */
+@media (max-width: 500px) {
+    body {
+        font-size: 75%;
+    }
+}
+.slider
+{
+	border-radius: 15px;
+}
+#footer 
+{
+   position:relative;
+   bottom:0px;
+   left:0px;
+   width:100%;
+   height:40px;   /* Height of the footer */
+   color: white;
+   background: rgba(0,0,0,0.6);
+   display:none;
+	
+}
+
+#footer h4
+{
+	margin-bottom:35px;
+	margin-top:20px;
+	text-align: center;
+}
+.buttons
+{
+	margin-top: 3%;
+}
+.checked {
+  color: orange;
+}
+.rating
+{
+	margin-top:3%;
+	
+}
+.rating span
+{
+	font-size: 40px;
+}

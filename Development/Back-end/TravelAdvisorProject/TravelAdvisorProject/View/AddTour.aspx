@@ -46,13 +46,13 @@
        <asp:Label ID="endDateLabel" runat="server" Text="End Date"></asp:Label><br/><br/>
           <asp:TextBox ID="endDate" type ="date" runat="server" class= "box"></asp:TextBox> <br/><br/>
           <asp:Label ID="durationLabel" runat="server" Text="Duration"></asp:Label><br/><br/>
-          <asp:TextBox ID="duration" type ="date" runat="server" class= "box"></asp:TextBox> <br/><br/>
+          <asp:TextBox ID="duration" type ="Text" runat="server" class= "box"></asp:TextBox> <br/><br/>
 	  <br/><br/>
 
-        <asp:Label ID="uploadImageLable" runat="server" Text="Add Image"></asp:Label><br /> <asp:FileUpload ID="imageUpload" runat="server" />
+        <asp:Label ID="uploadImageLable" runat="server" Text="Add First Image"></asp:Label><br /> <asp:FileUpload ID="imageUpload" runat="server" />
           <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
           <br /><br />
-        <asp:Label ID="uploadvideoLable" runat="server" Text="Add Video"></asp:Label><br /> <asp:FileUpload ID="videoUpload" runat="server" />
+        <asp:Label ID="uploadSecondImgLable" runat="server" Text="Add Second Image"></asp:Label><br /> <asp:FileUpload ID="secondImgUpload" runat="server" />
 
 	      <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
 

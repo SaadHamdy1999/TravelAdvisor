@@ -157,22 +157,22 @@ namespace TravelAdvisorProject.View {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// uploadvideoLable control.
+        /// uploadSecondImgLable control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label uploadvideoLable;
+        protected global::System.Web.UI.WebControls.Label uploadSecondImgLable;
         
         /// <summary>
-        /// videoUpload control.
+        /// secondImgUpload control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload videoUpload;
+        protected global::System.Web.UI.WebControls.FileUpload secondImgUpload;
         
         /// <summary>
         /// Label2 control.
