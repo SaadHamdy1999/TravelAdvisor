@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.gradient-text{
+  /* Fallback: Set a background color. */
+  background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #F3F2C9, #055052);
+  
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  text-align: center;
+ 
+  
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: normal;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-bottom: -0.25em;
+}
+#u{
+	
+	background-image: url(../images/c.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: cursive;
+	color: #ffff;
+}
+#a{
+	
+	background-image: url(../images/e.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: cursive;
+	color: #ffff;
+}#t{
+	
+	background-image: url(../images/s.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: cursive;
+	color: #ffff;
+}
+.heading{
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 100px;
+}
+#head{
+	font-size: 7em;
+	color:RGB(249,249,249);
+}
+#content1{
+	width: 90%;
+	margin: auto;
+}
+form{
+	background-color: rgba(0,0,0,0.7);
+	padding-top: 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 54%;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 10px;
+	padding-bottom: 60px;
+}
+
+form .box{
+	width: 98.5%;
+	height: 2.8em;
+	position: relative;
+	bottom: 10px;
+	border: 0;
+	border-radius: 5px;
+}
+#option1 select{
+	border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width: 30%;
+	height: 2.7em;
+	position: relative;
+	bottom: 10px;
+	border-radius: 5px;
+	left: 0px;
+}
+#content2{
+	margin-top: 10px;
+}
+button{
+	width: 30%;
+	height: 3em;
+	position: relative;
+	top: 11px;
+	background-color: #055052;
+	border: none;
+	color: #F3F2C9;
+	font-size:1em;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
