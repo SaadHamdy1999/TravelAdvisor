@@ -21,8 +21,10 @@ namespace TravelAdvisorProject.View
         static int index = 0;
         string prev;
         string next;
+        string userIdentifier = "";
         protected void Page_Load(object sender, EventArgs e)
         {
+            userIdentifier = Request.QueryString["userId"];
             if (!IsPostBack)
             {
                 // load index from cache
@@ -89,7 +91,7 @@ namespace TravelAdvisorProject.View
 
         protected void view_Click(object sender, EventArgs e)
         {
-            Response.Redirect("TourBooking.aspx?val=" + toursIDs[index]);
+            Response.Redirect("TourBooking.aspx?val=" + toursIDs[index]+ "&userId="+ userIdentifier);
         }
     }
 }

@@ -1,0 +1,91 @@
+body 
+{
+	background-image: url("C:\\Users\\Admin\\Desktop\\design\\images\\ThankYouBackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+	text-align:center;
+    background-blend-mode:overlay;
+	background-color:rgba(0,0,0,0.2);
+}
+nav{
+	position: fixed;
+	top: 0;
+	left:0;
+	width:100%;
+	height: 90px;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.6);
+	border-bottom: 1px solid transparent;
+}
+nav .logo{
+	padding-bottom:15px;
+	padding-right:12px;
+	float: left;
+}
+nav ul{
+	list-style:none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	background: rgba(0,0,0,0.7);
+	border-radius: 6px;
+}
+h1
+{
+	margin-top:15%;
+	font-size: 90px;
+	color: white;
+}
+h1 span
+{
+  transition: .5s linear
+}
+
+
+h1:hover span
+{
+  color: white;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff, 
+               0 0 40px #fff;
+}
+nav img
+{
+	padding-bottom: 150px!important;
+	padding-top:0px;
+}
+
+
+
+
+#footer 
+{
+   position:absolute;
+   bottom:0;
+   left:0;
+   width:100%;
+   height:40px;   /* Height of the footer */
+   color: white;
+   	background: rgba(0,0,0,0.6);
+	
+}
+
+#footer h4
+{
+	margin-bottom:50px;
+	margin-top:15px;
+}

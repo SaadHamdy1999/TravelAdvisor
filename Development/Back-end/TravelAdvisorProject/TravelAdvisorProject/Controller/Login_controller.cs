@@ -16,7 +16,7 @@ namespace TravelAdvisorProject.Controller
             this.pass = pass;
         }
 
-        public bool login(bool isAdmin){
+        public bool login(bool isAdmin, ref string userID){
 
             try
             {
@@ -38,6 +38,11 @@ namespace TravelAdvisorProject.Controller
                 SqlDataReader sdr = cmd.ExecuteReader();
                 if (sdr.Read())
                 {
+                    while (sdr.Read())
+                    {
+                       userID= sdr["U_ID"].ToString();
+                    }
+                    sdr.Close();
                     con.Close();
                     return true;
                 }

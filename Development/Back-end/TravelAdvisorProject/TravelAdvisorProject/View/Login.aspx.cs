@@ -27,13 +27,20 @@ namespace TravelAdvisorProject.View
         {
             string username = userName.Text;
             string pass = password.Text;
-
+            string userID="";
             loginController = new Login_controller(username, pass);
 
-            if (loginController.login(isAdmin.Checked))
-                Response.Write("<script>alert('Loged in Successfully')</script>");
+            if (loginController.login(isAdmin.Checked,ref userID))
+            {
+                if (isAdmin.Checked)
+                {
+                    Response.Redirect("AdminHome.aspx?adminId=" + userID);
+                }
+                else
+                Response.Redirect("UserHome.aspx?userId=" + userID);
+            }
             else
-                Response.Write("<script>alert('UserNamee or Password Is not correct Try again..!!')</script>");
+                Response.Write("<script>alert('Please create an account first and then login')</script>");
         }
     }
 }

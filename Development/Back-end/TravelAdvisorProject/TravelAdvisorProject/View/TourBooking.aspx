@@ -20,7 +20,7 @@
 			 <img src="../images/u.png" class="img-fluid"/>
 		   </div>
 		   <ul>
-			 <li><a href= ".\User Home.html">Home</a></li>
+			 <li><a href= "UserHome.aspx">Home</a></li>
 		   </ul>
 		 </nav>
 		 

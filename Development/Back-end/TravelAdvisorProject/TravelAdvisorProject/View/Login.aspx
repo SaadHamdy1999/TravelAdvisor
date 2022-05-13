@@ -26,10 +26,9 @@
     <h1>Login</h1>
     <hr/>
     <label for="userName"><b>Username</b></label>
-    <asp:TextBox ID="userName" type="text"  placeholder="Enter User Name" runat="server" required></asp:TextBox>
+    <asp:TextBox ID="userName" type="text"  placeholder="Enter User Name" runat="server" pattern="[a-zA-Z0-9-]+" required></asp:TextBox>
 	<label for="password"><b>Password</b></label>
-    <asp:TextBox ID="password" type="password"  placeholder="Enter Password" runat="server" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
- required></asp:TextBox>
+    <asp:TextBox ID="password" type="password"  placeholder="Enter Password" runat="server" required></asp:TextBox>
     <asp:CheckBox ID="isAdmin" runat="server" value="admin"/>
 <label for="Admin"> Is Admin</label><br>
        
