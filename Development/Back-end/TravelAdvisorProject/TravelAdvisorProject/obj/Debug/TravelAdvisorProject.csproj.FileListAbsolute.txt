@@ -64,3 +64,38 @@ C:\Users\ossay\Downloads\New folder\TravelAdvisor\Development\Back-end\TravelAdv
 C:\Users\ossay\Downloads\New folder\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\obj\Debug\TravelAdvisorProject.csprojResolveAssemblyReference.cache
 C:\Users\ossay\Downloads\New folder\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\obj\Debug\TravelAdvisorProject.dll
 C:\Users\ossay\Downloads\New folder\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\obj\Debug\TravelAdvisorProject.pdb
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\obj\Debug\TravelAdvisorProject.csproj.AssemblyReference.cache
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\obj\Debug\TravelAdvisorProject.csproj.CoreCompileInputs.cache
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\obj\Debug\TravelAdvisorProject.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\obj\Debug\TravelAdvisorProject.pdb
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\ApplicationInsights.config
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\csc.exe
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\System.Collections.Immutable.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\vbc.exe
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\VBCSCompiler.exe
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\roslyn\VBCSCompiler.exe.config
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\TravelAdvisorProject.dll.config
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\TravelAdvisorProject.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\TravelAdvisorProject.pdb
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.Web.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.WindowsServer.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.ApplicationInsights.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.Web.xml
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.AI.WindowsServer.xml
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.ApplicationInsights.xml
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ITI Study\QA Project\TravelAdvisor\Development\Back-end\TravelAdvisorProject\TravelAdvisorProject\obj\Debug\TravelAdvisorProject.csproj.CopyComplete
