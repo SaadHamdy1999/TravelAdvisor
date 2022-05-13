@@ -16,13 +16,13 @@ namespace TravelAdvisorProject.Controller
             this.pass = pass;
         }
 
-        public bool login(bool isAdmin){
+        public bool login(bool isAdmin, ref string userID){
 
             try
             {
                 SqlConnection con = new SqlConnection();
 
-                con.ConnectionString = "Server = .; Database = TravelAdvisorDB;Integrated Security = true";
+                con.ConnectionString = "Data Source=DESKTOP-ISNDRDG\\ASHRY;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
                 con.Open();
                 SqlCommand Scmd = new SqlCommand();
                 Scmd.Connection = con;
@@ -38,6 +38,11 @@ namespace TravelAdvisorProject.Controller
                 SqlDataReader sdr = cmd.ExecuteReader();
                 if (sdr.Read())
                 {
+                    while (sdr.Read())
+                    {
+                       userID= sdr["U_ID"].ToString();
+                    }
+                    sdr.Close();
                     con.Close();
                     return true;
                 }

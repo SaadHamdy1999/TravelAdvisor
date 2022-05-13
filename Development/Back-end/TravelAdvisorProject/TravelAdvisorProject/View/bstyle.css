@@ -1,0 +1,132 @@
+﻿
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+
+    nav .logo {
+        padding-bottom: 15px;
+        padding-right: 12px;
+        float: left;
+    }
+
+    nav ul {
+        list-style: none;
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+        nav ul li a {
+            line-height: 80px;
+            color: #fff;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+            nav ul li a:hover {
+                background: rgba(0,0,0,0.7);
+                border-radius: 6px;
+            }
+.header img {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background: #555;
+}
+
+#header{
+    position: absolute;
+    left:41%;
+    top: -14px;
+}
+body {
+    background-image: url("../images/c.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+    margin-left: 100px;
+    block-size: auto;
+    width: 100%;
+    margin-bottom: 600px;
+}
+#content1 {
+    width: 700px;
+    position: absolute;
+    left: 20%;
+}
+
+#form {
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 25%;
+    width: 54%;
+    border-radius: 5px;
+    margin-top: 250px;
+    box-sizing: border-box;
+    font-family: Verdana;
+    color: white;
+}
+
+.box {
+    width: 69%;
+    height: 2.8em;
+    position: absolute;
+    border: 0;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+    button:hover {
+        opacity: 1;
+    }
+.btn {
+    color: white;
+    font-size: 1em;
+    font-family: Verdana;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    float: left;
+    width: 35%;
+    background-color: #808080;
+}
+.resetbtn {
+    color: white;
+    font-family: Verdana;
+    font-size: 1em;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    float: left;
+    width: 35%;
+    background-color: #f5be23;
+}
