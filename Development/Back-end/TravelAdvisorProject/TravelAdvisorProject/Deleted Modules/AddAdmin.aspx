@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddAdmin.aspx.cs" Inherits="TravelAdvisorProject.View.AddAdmin" %>
-
+﻿
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">

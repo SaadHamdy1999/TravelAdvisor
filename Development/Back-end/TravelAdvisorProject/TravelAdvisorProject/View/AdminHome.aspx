@@ -59,10 +59,11 @@
                 </div>
                 <div class="navbar-nav w-100">
 
-                    <a href="AddAdmin.aspx" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Add Admin</a>
+                 <!--   <a href="AddAdmin.aspx" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Add Admin</a>
                     <a href="AddUser.aspx" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Add User</a>
+                     -->
+
                     <a href="AddTour.aspx" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Add Tour</a>
-                   
 
                 </div>
             </nav>
