@@ -38,10 +38,16 @@ namespace TravelAdvisorProject.Controller
                 SqlDataReader sdr = cmd.ExecuteReader();
                 if (sdr.Read())
                 {
-                    while (sdr.Read())
+                    /* while (sdr.Read())
+                     {
+                        userID= sdr["U_ID"].ToString();
+                     }*/
+                    if (isAdmin)
                     {
-                       userID= sdr["U_ID"].ToString();
+                        userID = sdr["A_ID"].ToString();
                     }
+                    else
+                        userID = sdr["U_ID"].ToString();
                     sdr.Close();
                     con.Close();
                     return true;
