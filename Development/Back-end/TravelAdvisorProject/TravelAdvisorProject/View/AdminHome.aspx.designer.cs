@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TravelAdvisorProject.View {
-    
-    
-    public partial class AdminHome {
-        
+namespace TravelAdvisorProject.View
+{
+
+
+    public partial class AdminHome
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
