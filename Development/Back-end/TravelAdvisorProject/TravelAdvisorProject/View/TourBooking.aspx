@@ -70,7 +70,7 @@
 			<div class="row buttons">
 				<div class="col offset-4">
 					<a href=".//ThankYouLayout.html" style="text-decoration:none">
-                        <asp:Button ID="book" runat="server" Text="Book"  class="btn btn-dark" OnClick="book_Click"/>
+                        <asp:Button ID="book" runat="server" Text="Book"  class="btn btn-dark" OnClientClick="return confirm('Are you sure you want to book ?')" OnClick="book_Click"/>
 						
 					</a>
 					
