@@ -22,7 +22,7 @@ namespace TravelAdvisorProject.Controller
         {
             //try{
                 SqlConnection Scon = new SqlConnection();
-                Scon.ConnectionString = "Data Source=.;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
+                Scon.ConnectionString = "Data Source=DESKTOP-ISNDRDG\\ASHRY;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
                 SqlCommand Scmd = new SqlCommand();
                 Scmd.Connection = Scon;
                 Scon.Open();
