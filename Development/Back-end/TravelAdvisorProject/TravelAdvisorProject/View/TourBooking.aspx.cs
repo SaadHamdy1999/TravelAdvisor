@@ -31,7 +31,7 @@ namespace TravelAdvisorProject.View
             string end_date="";
             string cost_s="";
             
-            con.ConnectionString = "Server = .; Database = TravelAdvisorDB;Integrated Security = true";
+            con.ConnectionString = "Data Source=.;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
             con.Open();
                 SqlCommand cmd = new SqlCommand("select * from Images where T_ID =@tripID", con);
                 SqlCommand cmd2 = new SqlCommand("select * from Tour_Table where T_ID =@tripID", con);
@@ -92,6 +92,7 @@ namespace TravelAdvisorProject.View
 
         protected void book_Click(object sender, EventArgs e)
         {
+            
             SqlCommand cmd = new SqlCommand("update User_Table set T_ID =@tripID where U_ID=@userID", con);
             cmd.Parameters.AddWithValue("@tripID", tripID);
             cmd.Parameters.AddWithValue("@userID", userID);
@@ -121,7 +122,7 @@ namespace TravelAdvisorProject.View
             {
                 throw ex;
             }*/
-            Response.Redirect("ThankYouLayout.html");
+            Response.Redirect("ThankYouLayout.aspx?userID=" + userID);
         }
     }
 }

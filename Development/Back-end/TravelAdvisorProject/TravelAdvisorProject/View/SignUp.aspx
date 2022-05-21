@@ -44,10 +44,10 @@
  required></asp:TextBox>
 	
 	<label for="phone"><b>Mobile Number</b></label>
-	    <asp:TextBox ID="user_mobile" type="text"   placeholder="Enter phone" runat="server" pattern="[0-9]+" title="a phone can't have characters" required></asp:TextBox>
+	    <asp:TextBox ID="user_mobile" type="text"   placeholder="Enter phone" runat="server" pattern="^(010|011|012)[0-9]{8}$" title="a phone can't have characters" required></asp:TextBox>
 
 	<label for="age"><b>Age</b></label>
-    <asp:TextBox ID="user_age" type="text"   placeholder="Enter Age" runat="server" min="18" max="9" required></asp:TextBox>
+    <asp:TextBox ID="user_age" type="text"   placeholder="Enter Age" runat="server" pattern="^(1[89]|[2-8][0-9]|90)$" required></asp:TextBox>
 
     
     <button type="reset" class="resetbtn">Reset</button>

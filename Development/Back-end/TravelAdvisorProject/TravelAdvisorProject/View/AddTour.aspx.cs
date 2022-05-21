@@ -38,6 +38,8 @@ namespace TravelAdvisorProject.View
                 Label1.Text = "Image Uploaded";
                 Label1.ForeColor = System.Drawing.Color.ForestGreen;
 
+
+
             }
             else
             {
