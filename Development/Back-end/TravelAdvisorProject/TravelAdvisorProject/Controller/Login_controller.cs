@@ -22,7 +22,7 @@ namespace TravelAdvisorProject.Controller
             {
                 SqlConnection con = new SqlConnection();
 
-                con.ConnectionString = "Data Source=.;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
+                con.ConnectionString = "Data Source=LAPTOP-I64F104J\\ITI_SQL;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
                 con.Open();
                 SqlCommand Scmd = new SqlCommand();
                 Scmd.Connection = con;
