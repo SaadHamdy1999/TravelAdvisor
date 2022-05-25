@@ -42,5 +42,6 @@ namespace TravelAdvisorProject.View
             else
                 Response.Write("<script>alert('Please create an account first and then login')</script>");
         }
+
     }
 }

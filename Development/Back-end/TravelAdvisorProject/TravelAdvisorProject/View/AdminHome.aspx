@@ -363,7 +363,9 @@
             </nav>
         </div>
 		<div class="container middle">
-				<h1>Home</h1>
+				<a style="margin-left: 43%;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: transparent;color: black;text-decoration: none;font-size: xx-large;" href="AdminHome.aspx">Home</a>
                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">

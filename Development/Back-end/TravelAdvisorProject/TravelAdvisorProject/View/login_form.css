@@ -95,3 +95,24 @@ Button:hover {
   
   
 }
+
+
+#DivHtmlArea 
+{
+   position:relative;
+   bottom:0px;
+   left:0px;
+   width:100%;
+   height:40px;   /* Height of the footer */
+   color: white;
+   background: rgba(0,0,0,0.6);
+   display:none;
+	
+}
+
+#DivHtmlArea h4
+{
+	margin-bottom:35px;
+	margin-top:20px;
+	text-align: center;
+}

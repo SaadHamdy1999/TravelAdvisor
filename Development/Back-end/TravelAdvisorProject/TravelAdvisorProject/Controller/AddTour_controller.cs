@@ -38,7 +38,7 @@ namespace TravelAdvisorProject.Controller
                 //  string durationValue = duration.ToString();
                
                  con = new SqlConnection();
-                con.ConnectionString = "Data Source=LAPTOP-I64F104J\\ITI_SQL;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
+                con.ConnectionString = "Data Source=.;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
                 con.Open();
 
                 addTour();
