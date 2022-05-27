@@ -19,13 +19,13 @@
 
 	    
         <asp:Label ID="tourNameLable" runat="server" Text="Tour Name"></asp:Label><br/><br/>
-        <asp:TextBox ID="tourName" type ="text" runat="server" class= "box"></asp:TextBox><br/><br/>
+        <asp:TextBox ID="tourName" type ="text" runat="server" class= "box" required="required" pattern="[a-zA-Z]+" title="You can’t Enter space or numbers in Tour Name field"></asp:TextBox><br/><br/>
           <asp:Label ID="costLabel" runat="server" Text="Cost"></asp:Label><br/><br/>
-          <asp:TextBox ID="cost" type = "text" runat="server" class= "box"></asp:TextBox><br/><br/>
+          <asp:TextBox ID="cost" type = "text" runat="server" class= "box" required="required" pattern="^([1-9][0-9][0-9][0-9][.]?[0-9]*)$" title="Cost field must be numeric and have to be more than or equal 1000"></asp:TextBox><br/><br/>
           <asp:Label ID="countryLabel" runat="server" Text="Country"></asp:Label><br/><br/>
           
 	  <div id= "option1">
-       <asp:DropDownList ID="country" runat="server">
+       <asp:DropDownList ID="country" runat="server" required="required">
            <asp:ListItem Value="PL">Poland</asp:ListItem>
            <asp:ListItem Value="PK">Pakistan</asp:ListItem>
            <asp:ListItem Value="TH">Thailand</asp:ListItem>
@@ -42,11 +42,11 @@
 
           <asp:Label ID="flightDataLabel" runat="server" Text="Flight Date"></asp:Label><br/><br/>
           
-          <asp:TextBox ID="flightDate" type ="date" runat="server" class= "box"></asp:TextBox> <br/><br/>
+          <asp:TextBox ID="flightDate" type ="date" runat="server" class= "box" required="required"></asp:TextBox> <br/><br/>
        <asp:Label ID="endDateLabel" runat="server" Text="End Date"></asp:Label><br/><br/>
-          <asp:TextBox ID="endDate" type ="date" runat="server" class= "box"></asp:TextBox> <br/><br/>
+          <asp:TextBox ID="endDate" type ="date" runat="server" class= "box" required="required"></asp:TextBox> <br/><br/>
           <asp:Label ID="durationLabel" runat="server" Text="Duration"></asp:Label><br/><br/>
-          <asp:TextBox ID="duration" type ="Text" runat="server" class= "box"></asp:TextBox> <br/><br/>
+          <asp:TextBox ID="duration" type ="Text" runat="server" class= "box" required="required" pattern="^([1-9]+[0-9]*)$"></asp:TextBox> <br/><br/>
 	  <br/><br/>
 
         <asp:Label ID="uploadImageLable" runat="server" Text="Add First Image"></asp:Label><br /> <asp:FileUpload ID="imageUpload" runat="server" />
@@ -57,7 +57,7 @@
 	      <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
 
 	  <br/><br/>
-          <asp:Button ID="submit" runat="server" Text="Submit" OnClick="submit_Click" />
+          <asp:Button ID="submit" runat="server" Text="Submit" OnClick="submit_Click" style=";border-radius:40%;font-size: 15px;padding:1%;font-weight: bold;" />
 	  </div>
 	  </div>
     </form>

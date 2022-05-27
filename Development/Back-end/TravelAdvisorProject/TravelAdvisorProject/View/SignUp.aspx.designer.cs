@@ -58,6 +58,15 @@ namespace TravelAdvisorProject.View {
         protected global::System.Web.UI.WebControls.TextBox user_confirm_password;
         
         /// <summary>
+        /// checkPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label checkPassword;
+        
+        /// <summary>
         /// user_mobile control.
         /// </summary>
         /// <remarks>

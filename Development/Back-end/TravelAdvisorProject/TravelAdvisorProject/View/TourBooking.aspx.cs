@@ -30,8 +30,8 @@ namespace TravelAdvisorProject.View
             string flight_date="";
             string end_date="";
             string cost_s="";
-            
-            con.ConnectionString = "Data Source=.;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
+
+            con.ConnectionString = "workstation id=TravelAdvisorDB.mssql.somee.com;packet size=4096;user id=ossayed17_SQLLogin_1;pwd=trtnuvf8kw;data source=TravelAdvisorDB.mssql.somee.com;persist security info=False;initial catalog=TravelAdvisorDB";
             con.Open();
                 SqlCommand cmd = new SqlCommand("select * from Images where T_ID =@tripID", con);
                 SqlCommand cmd2 = new SqlCommand("select * from Tour_Table where T_ID =@tripID", con);
@@ -123,6 +123,11 @@ namespace TravelAdvisorProject.View
                 throw ex;
             }*/
             Response.Redirect("ThankYouLayout.aspx?userID=" + userID);
+        }
+
+        protected void Home_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UserHome.aspx?userID=" + userID);
         }
     }
 }

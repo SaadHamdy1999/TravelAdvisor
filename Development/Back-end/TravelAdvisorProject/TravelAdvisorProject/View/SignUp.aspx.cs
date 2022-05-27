@@ -24,9 +24,25 @@ namespace TravelAdvisorProject.View
             string userConfirmPassword = user_confirm_password.Text;
             string userMobile = user_mobile.Text;
             string userAge = user_age.Text;
+            int vlaue = String.Compare(userPassword, userConfirmPassword);
+            if (String.Compare(userPassword, userConfirmPassword) !=0)
+            {
+                //Response.Write("<script>alert('') ; location.href='Login.aspx'</script>");
+                //  ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('confirm password doesn't match to the password');", true);
+                //Response.Write("<script>alert('confirm password doesn't match to the password') ;</script>");
 
-            signUpController = new SignUp_controller(userName, userEmail, userPassword, userConfirmPassword, userMobile, userAge);
-            signup(signUpController);
+                //Response.Write("<script>alert()</script>");
+                checkPassword.Text= "confirm password doesn't match to the password";
+                checkPassword.ForeColor = System.Drawing.Color.Red;
+
+
+
+            }
+            else
+            {
+                signUpController = new SignUp_controller(userName, userEmail, userPassword, userConfirmPassword, userMobile, userAge);
+                signup(signUpController);
+            }
         }
         private void signup(SignUp_controller signUpc)
         {

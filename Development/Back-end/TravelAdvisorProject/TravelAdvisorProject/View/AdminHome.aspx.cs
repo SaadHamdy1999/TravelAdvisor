@@ -13,5 +13,11 @@ namespace TravelAdvisorProject.View
         {
 
         }
+
+        protected void HomeBtn_Click(object sender, EventArgs e)
+        {
+            string adminID = Request.QueryString["adminId"];
+            Response.Redirect("AdminHome.aspx?adminId=" + adminID);
+        }
     }
 }

@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlkydTAW4O0eUWDFpEVD9FQAAAAACAAAAAAAQZgAAAAEAACAAAADl9SZKtu2hgf6QXid6yOvO3gyiblGp4Gs0VYc67nrozwAAAAAOgAAAAAIAACAAAAAjwfxAJ7rDVflLVAyyWETHwqzNhKqC1m71EDsHyWGH+SAAAAD95FVJeSY4cbUL1ss5kM+iHXVhjqRt5ZL6gHUXE+QJc0AAAACpLu0bk7D6lZlEbtkX5am13jNDxe8eGMYE1+kC7qxXZ8reXvap6XQW3Ke8GdFk/TFz46HK+4T6IE9p9bF4be/5</EncryptedPassword>
+    <_PublishTargetUrl>ftp://TravelAdvisor.somee.com/www.TravelAdvisor.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>05/11/2022 19:42:11</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>05/11/2022 19:42:11</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/TravelAdvisorProject.dll">
+      <publishTime>05/27/2022 17:26:22</publishTime>
+    </File>
+    <File Include="Deleted Modules/AddAdmin.aspx">
+      <publishTime>05/17/2022 12:46:49</publishTime>
+    </File>
+    <File Include="Deleted Modules/AddUser.aspx">
+      <publishTime>05/13/2022 20:31:37</publishTime>
+    </File>
+    <File Include="Images/1.jpeg">
+      <publishTime>05/13/2022 20:58:04</publishTime>
+    </File>
+    <File Include="Images/125px-Flag_of_Russia.svg.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/a.jpg">
+      <publishTime>05/11/2022 17:45:18</publishTime>
+    </File>
+    <File Include="Images/a1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/a2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/a3.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/amap.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Aus.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/AUSflag.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/ausmain.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/BG.jpeg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/c.jpg">
+      <publishTime>05/11/2022 17:45:18</publishTime>
+    </File>
+    <File Include="Images/c1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/c2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/c3.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/CALI.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/CALIflag.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Canada.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/canadamain.jpeg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/CANflag.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/cmap.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact3 .jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact4.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact5.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact6.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact7.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact8.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/contact9.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Continents.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/CovidTesting.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/croatia1.jpg">
+      <publishTime>05/11/2022 23:46:13</publishTime>
+    </File>
+    <File Include="Images/croatia2.jpg">
+      <publishTime>05/11/2022 23:47:31</publishTime>
+    </File>
+    <File Include="Images/dd.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/download.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/e.jpg">
+      <publishTime>05/11/2022 17:45:18</publishTime>
+    </File>
+    <File Include="Images/e1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/e2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/e3.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/ee.jpg">
+      <publishTime>05/11/2022 17:45:18</publishTime>
+    </File>
+    <File Include="Images/Egypt.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/EGYPTflag.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/egyptmain.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/emap.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/england1.jpg">
+      <publishTime>05/11/2022 15:14:17</publishTime>
+    </File>
+    <File Include="Images/england2.jpg">
+      <publishTime>05/11/2022 15:14:31</publishTime>
+    </File>
+    <File Include="Images/england3.jpg">
+      <publishTime>05/11/2022 15:14:57</publishTime>
+    </File>
+    <File Include="Images/g1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/g2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/g3.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/GERMAN.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/GERMANflag.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/germanymain.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/gmap.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/HomePageBG2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/HomePageBG20.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/HomePageBG20000.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/HomePageBG211.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/i.jpg">
+      <publishTime>05/11/2022 17:45:18</publishTime>
+    </File>
+    <File Include="Images/inline_image_preview.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/j1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/j2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/j3.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Japan.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/japanmain.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/JAPflag.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/jmap.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Log.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/m1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/m2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/m3.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Mainmap.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/mmap.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Mor.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/MORflag.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/mormain.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/n1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/n2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/n3.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/night1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/night2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/night3.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/night4.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/night5.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/nmap.png">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/o.jpg">
+      <publishTime>05/11/2022 17:45:18</publishTime>
+    </File>
+    <File Include="Images/Palma Cathedral.webp">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Reserved.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Reserved2.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Reserved2Edited.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Reserved3.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Reserved4.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Reserved5.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Reserved6.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/Reserved7.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/russia-best-places-to-visit-lake-baikal.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/russia-best-places-to-visit-moscow.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/russia-best-places-to-visit-peterhof.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/russia-best-places-to-visit-the-russian-tundra.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/RussiaMap.PNG">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/s.jpg">
+      <publishTime>05/11/2022 17:45:18</publishTime>
+    </File>
+    <File Include="Images/s1.jpg">
+      <publishTime>05/10/2022 21:38:16</publishTime>
+    </File>
+    <File Include="Images/s2.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/s3.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/Slider1.jpeg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/Slider2.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/Slider3.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/Slider4.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/Slider5.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/Slider6.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/Slider7.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/smap.png">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/SPAIN.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/SPAINflag.png">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/spainmain.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/ThankYouBackground.jpg">
+      <publishTime>05/11/2022 10:55:42</publishTime>
+    </File>
+    <File Include="Images/u.png">
+      <publishTime>05/11/2022 17:45:18</publishTime>
+    </File>
+    <File Include="Images/u1.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/u2.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/u3.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/umap.png">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/USA.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/USAflag.png">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/usamain.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="Images/Vaccien.jpg">
+      <publishTime>05/10/2022 21:38:17</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/11/2022 19:42:11</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>05/11/2022 19:42:08</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>05/11/2022 19:42:08</publishTime>
+    </File>
+    <File Include="View/AddTour.aspx">
+      <publishTime>05/24/2022 16:26:41</publishTime>
+    </File>
+    <File Include="View/AdminHome.aspx">
+      <publishTime>05/25/2022 11:08:30</publishTime>
+    </File>
+    <File Include="View/AdminHomeStyle.css">
+      <publishTime>05/19/2022 15:38:04</publishTime>
+    </File>
+    <File Include="View/astyle.css">
+      <publishTime>05/13/2022 21:04:20</publishTime>
+    </File>
+    <File Include="View/bstyle.css">
+      <publishTime>05/13/2022 21:01:03</publishTime>
+    </File>
+    <File Include="View/Login.aspx">
+      <publishTime>05/25/2022 13:13:37</publishTime>
+    </File>
+    <File Include="View/login_form.css">
+      <publishTime>05/25/2022 11:40:56</publishTime>
+    </File>
+    <File Include="View/nstyle.css">
+      <publishTime>05/11/2022 19:45:51</publishTime>
+    </File>
+    <File Include="View/SignUp.aspx">
+      <publishTime>05/25/2022 21:58:28</publishTime>
+    </File>
+    <File Include="View/signup_form.css">
+      <publishTime>05/11/2022 19:45:51</publishTime>
+    </File>
+    <File Include="View/style.css">
+      <publishTime>05/11/2022 21:19:06</publishTime>
+    </File>
+    <File Include="View/ThankYouLayout.aspx">
+      <publishTime>05/17/2022 13:07:51</publishTime>
+    </File>
+    <File Include="View/ThankYouStyle.css">
+      <publishTime>05/17/2022 13:05:53</publishTime>
+    </File>
+    <File Include="View/TourBooking.aspx">
+      <publishTime>05/27/2022 17:26:11</publishTime>
+    </File>
+    <File Include="View/TourStyle.css">
+      <publishTime>05/13/2022 13:49:52</publishTime>
+    </File>
+    <File Include="View/UserHome.aspx">
+      <publishTime>05/13/2022 17:44:37</publishTime>
+    </File>
+    <File Include="View/UserHomeStyle.css">
+      <publishTime>05/13/2022 15:15:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/27/2022 17:13:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

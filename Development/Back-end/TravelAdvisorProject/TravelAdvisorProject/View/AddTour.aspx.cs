@@ -29,17 +29,36 @@ namespace TravelAdvisorProject.View
 
             if (imageUpload.HasFile && secondImgUpload.HasFile)
             {
-                imageUpload.PostedFile.SaveAs(Server.MapPath("~/Upload/" + imagePath));
-                secondImgUpload.PostedFile.SaveAs(Server.MapPath("~/Upload/" + secondImage));
+                int startDay, startMonth, startYear, endDay, endMonth, endYear;
+                startDay = int.Parse(flightDateValue.Substring(flightDateValue.Length - 2));
+                startYear = int.Parse(flightDateValue.Substring(0, 4));
+                startMonth = int.Parse(flightDateValue.Substring(5, 2));
+                endDay = int.Parse(endDateValue.Substring(endDateValue.Length - 2));
+                endYear = int.Parse(endDateValue.Substring(0, 4));
+                endMonth = int.Parse(endDateValue.Substring(5, 2));
+                //  float duration = float.Parse(end_date.Substring(end_date.Length - 2)) - float.Parse(flight_date.Substring(flight_date.Length - 2));
 
-                addTourController = new AddTour_controller(imagePath, secondImage, tourNameTextBoxValue, tourCost, countryName, flightDateValue, endDateValue);
-                addTour(addTourController);
+                DateTime startflightDate = new DateTime(startYear, startMonth, startDay);
+                DateTime endflightDate = new DateTime(endYear, endMonth, endDay);
+                int result =DateTime.Compare(startflightDate, endflightDate);
+                if (DateTime.Compare(startflightDate, endflightDate) > 0)
+                {
+                    ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('You can’t set the end date before the start date or vice versa')", true);
+                }
+                else
+                {
 
-                Label1.Text = "Image Uploaded";
-                Label1.ForeColor = System.Drawing.Color.ForestGreen;
+                    imageUpload.PostedFile.SaveAs(Server.MapPath("~/Upload/" + imagePath));
+                    secondImgUpload.PostedFile.SaveAs(Server.MapPath("~/Upload/" + secondImage));
+
+                    addTourController = new AddTour_controller(imagePath, secondImage, tourNameTextBoxValue, tourCost, countryName, flightDateValue, endDateValue);
+                    addTour(addTourController);
+
+                    Label1.Text = "Image Uploaded";
+                    Label1.ForeColor = System.Drawing.Color.ForestGreen;
 
 
-
+                }
             }
             else
             {
