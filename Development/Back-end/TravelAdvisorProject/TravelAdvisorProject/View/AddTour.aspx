@@ -57,7 +57,7 @@
 	      <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
 
 	  <br/><br/>
-          <asp:Button ID="submit" runat="server" Text="Submit" OnClick="submit_Click" />
+          <asp:Button ID="submit" runat="server" Text="Submit" OnClick="submit_Click" style=";border-radius:40%;font-size: 15px;padding:1%;font-weight: bold;" />
 	  </div>
 	  </div>
     </form>
