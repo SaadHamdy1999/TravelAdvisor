@@ -24,7 +24,7 @@ namespace TravelAdvisorProject.Controller
             try
             {
                 SqlConnection Scon = new SqlConnection();
-                Scon.ConnectionString = "Data Source=DESKTOP-ISNDRDG\\ASHRY;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
+                Scon.ConnectionString = "workstation id=TravelAdvisorDB.mssql.somee.com;packet size=4096;user id=ossayed17_SQLLogin_1;pwd=trtnuvf8kw;data source=TravelAdvisorDB.mssql.somee.com;persist security info=False;initial catalog=TravelAdvisorDB";
                 Scon.Open();
                 SqlCommand Scmd = new SqlCommand();
                 Scmd.Connection = Scon;

@@ -31,7 +31,7 @@ namespace TravelAdvisorProject.View
                 Int32.TryParse((Session["index"] ?? 0).ToString(), out index);
             }
             
-            con.ConnectionString = "Data Source=DESKTOP-ISNDRDG\\ASHRY;Initial Catalog=TravelAdvisorDB;Integrated Security=True";
+            con.ConnectionString = "workstation id=TravelAdvisorDB.mssql.somee.com;packet size=4096;user id=ossayed17_SQLLogin_1;pwd=trtnuvf8kw;data source=TravelAdvisorDB.mssql.somee.com;persist security info=False;initial catalog=TravelAdvisorDB";
             con.Open();
             cmd = new SqlCommand("select * from Tour_Table", con);
             sdr = cmd.ExecuteReader();

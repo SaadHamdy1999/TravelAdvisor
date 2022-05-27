@@ -20,7 +20,16 @@
 			 <img src="../images/u.png" class="img-fluid"/>
 		   </div>
 		   <ul>
-			 <li><a href= "UserHome.aspx">Home</a></li>
+			 <li>
+                 <asp:Button ID="Home" runat="server" Text="Home" OnClick="Home_Click" style="line-height: 80px;
+    color: #fff;
+    padding: 1px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;background: inherit;border: none;cursor: pointer;"/>
+			 </li>
 		   </ul>
 		 </nav>
 		 
@@ -74,7 +83,7 @@
 						
 					</a>
 					
-					<a href="#footer">
+					<a>
 						<button  onclick="myFooter()" type="button" class="btn btn-dark">About Us</button>
 					</a> 
 				</div>
